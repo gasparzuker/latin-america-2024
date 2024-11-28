@@ -1738,16 +1738,3 @@ You can use the following file as a reference:
 
 The main difference from the example above and what you have already done is that the device in Sam's example doesn't have a queue for incoming requests.
 Your task is to make the changes to your secure memory so it behaves like the one in the example.
-
-> Hints are on the next slide
-
----
-
-## Step 2 hints
-
-You can use the following file as a reference:
-
-<https://github.com/samueltphd/SecureMemoryTutorial/blob/main/src/mem/secmem-tutorial/secure_memory.cc>
-
-The main difference from the example above and what you have already done is that the device in Sam's example doesn't have a queue for incoming requests.
-Your task is to make the changes to your secure memory so it behaves like the one in the example.
