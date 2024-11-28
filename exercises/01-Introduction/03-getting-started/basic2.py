@@ -8,7 +8,9 @@ from gem5.components.processors.cpu_types import CPUTypes
 from gem5.isas import ISA
 from gem5.resources.resource import obtain_resource
 from gem5.simulate.simulator import Simulator
+
 board.set_se_binary_workload(binary=BinaryResource("matrix-multiply"))
+
 processor = SimpleProcessor(CPUTypes.TIMING,1,ISA.ARM)
 
 cache = MESITwoLevelCacheHierarchy(l1i_size="32KiB",
