@@ -710,7 +710,6 @@ We will also need to eventually declare the functions that we call from the owne
 > **Declarations:**
 `Tick SecureMemory::recvAtomic(PacketPtr);`
 `void SecureMemory::recvFunctional(PacketPtr);`
-`void SecureMemory::recvFunctional(PacketPtr);`
 
 ---
 
