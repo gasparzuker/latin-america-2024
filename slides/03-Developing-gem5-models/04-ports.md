@@ -1292,18 +1292,14 @@ Let's declare the following in `secure_memory.hh` to implement the `response` pa
 ```cpp
   private:
     TimedQueue<PacketPtr> responseBuffer;
-<<<<<<< HEAD
-    EventFunctionWrapper nextRespSendEvent;
-    EventFunctionWrapper nextRespRetryEvent;
-=======
 
     EventFunctionWrapper nextRespSendEvent;        EventFunctionWrapper nextRespRetryEvent;
->>>>>>> b2c6625 (added retry event for responses)
     void processNextRespSendEvent();
     void scheduleNextRespSendEvent(Tick when);
     void processNextRespRetryEvent();
     void scheduleNextRespRetryEvent(Tick when);
     void recvRespRetry()
+
 
   public:
     bool recvTimingResp(PacketPtr pkt);
