@@ -29,13 +29,13 @@ import m5
 from m5.objects import Root
 
 #### Import DDR3_1600_8x8 here.
-from m5.objects.DRAMInterface import DDR3_1600_8x8
+from gem5.components.memory.dram_interfaces.ddr3 import DDR3_1600_8x8
 
 from components.cache_hierarchy import MyPrivateL1SharedL2CacheHierarchy
 from components.hybrid_generator import HybridGenerator
 
 #### Import InspectedMemory here.
-from components.inspected_memory import InspectedMemory
+from src.bootcamp.SecureMemory import SecureMemory
 
 from gem5.components.boards.test_board import TestBoard
 
